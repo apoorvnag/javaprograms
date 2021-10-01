@@ -2,7 +2,7 @@
 public class Demo {
 
 	public static void main(String[] args) {
-		System.out.println("Hello");
+		System.out.println("Hello Guys");
 		Demo.print();
 		
 		Student s = new Student(1, "Apoorv");
