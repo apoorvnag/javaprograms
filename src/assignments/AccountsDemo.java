@@ -23,14 +23,14 @@ class Account{
 	
 	private int accountId;
 	private int balance;
-	
+	//constructor
 	public Account(int accountId) {
 		// TODO Auto-generated constructor stub
 		System.out.println("Opening Account");
 		this.accountId = accountId;
 		this.balance = 0;
 	}
-
+        //read function to get the account id
 	public int getAccountId() {
 		return accountId;
 	}
